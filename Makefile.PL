@@ -1,17 +1,17 @@
 use strict;
 use inc::Module::Install;
 
-name('Crypt-DH');
-abstract('Diffie-Hellman key exchange system');
-author('Benjamin Trott <ben+cpan@stupidfool.org>');
+name 'Crypt-DH';
+abstract 'Diffie-Hellman key exchange system';
+author 'Btrott - Benjamin Trott (cpan:BTROTT) <ben+cpan@stupidfool.org>';
 author 'BinGOs - Chris Williams (cpan:BINGOS) <chris@bingosnet.co.uk>';
 author 'Mithaldu - Christian Walde (cpan:MITHALDU) <walde.christian@googlemail.com>';
-version_from('lib/Crypt/DH.pm'),
-license('perl');
-no_index(directory => 't');
-sign(1);
+version_from 'lib/Crypt/DH.pm';
+license 'perl';
+no_index directory => 't';
+sign 1;
 
-include('ExtUtils::AutoInstall');
+include 'ExtUtils::AutoInstall';
 
 perl_version '5.006';
 build_requires 'Test::More' => 0.47;
@@ -26,7 +26,8 @@ else {
 requires('Math::BigInt' => '1.60');
 
 githubmeta;
-auto_include();
-auto_install();
+auto_include;
+auto_install;
 
-&WriteAll;
+WriteAll;
+
