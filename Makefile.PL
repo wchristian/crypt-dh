@@ -9,7 +9,6 @@ author 'Mithaldu - Christian Walde (cpan:MITHALDU) <walde.christian@googlemail.c
 version_from 'lib/Crypt/DH.pm';
 license 'perl';
 no_index directory => 't';
-sign 1;
 
 include 'ExtUtils::AutoInstall';
 
