@@ -1,6 +1,8 @@
-$Id: Changes 1860 2005-06-11 06:15:44Z btrott $
-
 Revision history for Crypt::DH
+
+0.07  2012.06.06
+    - Made Math::BigInt::* dependency dynamic to avoid Math::BigInt falling
+      back to BigInt backends that are too slow for practical use.
 
 0.06  2005.06.10
     - Fixed compute_key/compute_secret to accept a Math::Pari object, so that
