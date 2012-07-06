@@ -3,3 +3,6 @@ MYMETA*
 Makefile
 MANIFEST.bak
 Crypt-DH-*
+blib
+pm_to_blib
+Makefile.old
