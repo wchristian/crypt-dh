@@ -7,6 +7,7 @@ author 'Benjamin Trott (cpan:BTROTT) <ben+cpan@stupidfool.org>';
 author 'BinGOs - Chris Williams (cpan:BINGOS) <chris@bingosnet.co.uk>';
 author 'Mithaldu - Christian Walde (cpan:MITHALDU) <walde.christian@googlemail.com>';
 version_from 'lib/Crypt/DH.pm';
+readme_from 'lib/Crypt/DH.pm';
 license 'perl';
 no_index directory => 't';
 
