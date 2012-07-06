@@ -3,7 +3,7 @@ use inc::Module::Install;
 
 name 'Crypt-DH';
 abstract 'Diffie-Hellman key exchange system';
-author 'Btrott - Benjamin Trott (cpan:BTROTT) <ben+cpan@stupidfool.org>';
+author 'Benjamin Trott (cpan:BTROTT) <ben+cpan@stupidfool.org>';
 author 'BinGOs - Chris Williams (cpan:BINGOS) <chris@bingosnet.co.uk>';
 author 'Mithaldu - Christian Walde (cpan:MITHALDU) <walde.christian@googlemail.com>';
 version_from 'lib/Crypt/DH.pm';
